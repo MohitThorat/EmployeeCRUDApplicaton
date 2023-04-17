@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeCRUDApplicaton", "EmployeeCRUDApplicaton\EmployeeCRUDApplicaton.csproj", "{DF26F9AD-4932-40AC-AB02-1E800D21E745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeCRUDApplicaton.Tests", "EmployeeCRUDApplicaton.Tests\EmployeeCRUDApplicaton.Tests.csproj", "{E89587B3-7C29-4DAD-B888-C616F86A507A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{DF26F9AD-4932-40AC-AB02-1E800D21E745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF26F9AD-4932-40AC-AB02-1E800D21E745}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF26F9AD-4932-40AC-AB02-1E800D21E745}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E89587B3-7C29-4DAD-B888-C616F86A507A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E89587B3-7C29-4DAD-B888-C616F86A507A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E89587B3-7C29-4DAD-B888-C616F86A507A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E89587B3-7C29-4DAD-B888-C616F86A507A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
