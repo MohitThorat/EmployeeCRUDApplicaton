@@ -32,7 +32,6 @@ namespace EmployeeCRUDApplicaton
                 return;
             }
 
-
             var name = txtName.Text.ToString();
             var email = txtEmail.Text.ToString();
             var mobile = txtMobile.Text.ToString();
@@ -48,7 +47,6 @@ namespace EmployeeCRUDApplicaton
                 {
                     dbConnection.Open();
                     ltError.Text = "Connection successful";
-
                     string sql = string.Format("Insert into dbo.Employee(FullName,Email,City,Age,mobileno,DateOfBirth,ModifiedTime) Values ('{0}', '{1}', '{2}', '{3}','{4}','{5}',CURRENT_TIMESTAMP)",name,email,city,age,mobile,birthDay);
                     SqlCommand command = new SqlCommand(sql, dbConnection);
                     command.ExecuteNonQuery();
@@ -68,8 +66,6 @@ namespace EmployeeCRUDApplicaton
                     dbConnection.Dispose();
                 }
                 ltSuccess.Text = @"Operation Successfull: " + name + " was added to the system.";
-                //HttpContext.Current.Response.Redirect("EmployeeDashboard.aspx");
-
             }
         }
     }
