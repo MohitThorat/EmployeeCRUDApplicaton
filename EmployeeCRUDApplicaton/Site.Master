@@ -50,7 +50,8 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/addemployee">Add Employees</a></li>
+                        <li><a class="navbar-brand" runat="server" href="~/addemployee">Add Employees</a></li>
+                        <li><a class="navbar-brand" runat="server" href="~/contact">Contact me</a></li>
                     </ul>
                 </div>
             </div>
